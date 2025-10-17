@@ -25,19 +25,7 @@ This responsive website highlights:
 - Font: CoFo Sans
 - Version Control: Git & GitHub
 
-============ Repository Structure ============
-/
-├── index.html
-├── main.css
-├── scripts.js
-├── /Fonts/
-│   └── CoFoSans-Regular-Trial.otf
-│   └── CoFoSans-Bold-Trial.otf
-└── /Images/
-    └── project-thumbnails, profile photos, etc.
-
 ============ Author ============
-
-Marcus Rocco
-M.S. in Business Analytics & Artificial Intelligence
-https://www.linkedin.com/in/marcus-rocco/
+- Marcus Rocco
+- M.S. in Business Analytics & Artificial Intelligence
+- https://www.linkedin.com/in/marcus-rocco/
