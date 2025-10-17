@@ -27,14 +27,24 @@ This responsive website highlights:
 
 ============ Repository Structure ============
 /
-├── index.html
-├── main.css
-├── scripts.js
-├── /Fonts/
-│   └── CoFoSans-Regular-Trial.otf
-│   └── CoFoSans-Bold-Trial.otf
-└── /Images/
-    └── project-thumbnails, profile photos, etc.
+├── 
+index.html
+├──
+main.css
+├── 
+scripts.js
+├── 
+/Fonts/
+│   
+└── 
+CoFoSans-Regular-Trial.otf
+│   
+└── 
+CoFoSans-Bold-Trial.otf
+└── 
+/Images/
+└── 
+project-thumbnails, profile photos, etc.
 
 ============ Author ============
 Marcus Rocco
