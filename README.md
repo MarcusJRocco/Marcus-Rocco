@@ -4,7 +4,6 @@ Welcome to my personal portfolio repository!
 This project serves as my professional website, designed to showcase my background, technical skills, and hands-on projects in Data Analytics, Data Engineering, and Business Intelligence.
 
 ============ Overview ============
-- This responsive website highlights:
 - My academic and professional journey
 - Selected analytics, optimization, and AI projects
 - Key skills, tools, and certifications
