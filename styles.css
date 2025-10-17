@@ -29,7 +29,7 @@
   --neo-dark: #babecc;
   --neo-light: #ffffff;
   --text: #121212;
-  --nav-h: 95px;                   /* height of top navbar */
+  --nav-h: 68px;                   /* height of top navbar */
   --content-max: 90%;              /* max readable width */
   --page-gutter: clamp(16px, 5vw, 48px);
   --section-gap: 4rem;
@@ -79,7 +79,7 @@ body{
   position: fixed;                 /* fixed header */
   top: 0; left: 0; right: 0;
   width: 100%;
-  padding: 1.5rem 5%;
+  padding: 0.75rem var(--page-gutter);
   display: flex;
   justify-content: space-between;
   align-items: center;
