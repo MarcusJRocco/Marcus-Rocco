@@ -37,6 +37,7 @@ This responsive website highlights:
     └── project-thumbnails, profile photos, etc.
 
 ============ Author ============
+
 Marcus Rocco
 M.S. in Business Analytics & Artificial Intelligence
 https://www.linkedin.com/in/marcus-rocco/
