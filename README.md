@@ -4,12 +4,12 @@ Welcome to my personal portfolio repository!
 This project serves as my professional website, designed to showcase my background, technical skills, and hands-on projects in Data Analytics, Data Engineering, and Business Intelligence.
 
 ============ Overview ============
-This responsive website highlights:
-- My academic and professional journey
-- Selected analytics, optimization, and AI projects
-- Key skills, tools, and certifications
-- Contact information and LinkedIn integration
-- The site is built entirely with HTML, CSS, and JavaScript, focusing on clean design, accessibility, and responsive layouts across desktop, tablet, and mobile devices.
+- This responsive website highlights:
+-- My academic and professional journey
+-- Selected analytics, optimization, and AI projects
+-- Key skills, tools, and certifications
+-- Contact information and LinkedIn integration
+-- The site is built entirely with HTML, CSS, and JavaScript, focusing on clean design, accessibility, and responsive layouts across desktop, tablet, and mobile devices.
 
 ============ Features ============
 - Modern, responsive design following CSS grid/flexbox best practices
