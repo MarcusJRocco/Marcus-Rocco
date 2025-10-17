@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marcus Rocco's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+   <!-- ========== Navigation Bar ========== -->
+  <nav class="top-navbar">
+    <a href="#home" class="logo">Marcus Rocco</a>
+
+    <!-- Mobile Nav Toggle Button -->
+    <button class="nav-toggle" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <ul id="primary-nav" class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+    <!-- ========== Page content ========== -->
+    <main class="page">
+
+      <!-- ========== Home Section ========== -->
+      <section id="home" class="home-section">
+        <div class="container">
+          <div class="profile-pic-container">
+            <img src="Photos/marcusrocco_headshot.jpg" class="profile-pic" alt="Profile Picture">
+          </div>
+
+          <div class="home-text-container">
+            <h1>Marcus Rocco</h1>
+            <h2>Data Analytics&nbsp;| Data Engineering&nbsp;| <span class="br-mobile"><br></span> Business Intelligence</h2>
+            <p><i>Transforming raw data into clear, actionable stories.</i></p> 
+            <p>Welcome to my portfolio. Here you’ll find an overview of my background, professional experience, and hands-on project work in analytics, data engineering, and business intelligence.</p>
+
+            <div class="home-cta">
+              <a class="btn-linkedin" href="https://www.linkedin.com/in/marcus-rocco/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <i class="fab fa-linkedin"></i>
+              <span>Connect on LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>     
+
+      <!-- ========== Project Section ========== -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <h1>Projects</h1>
+
+          <div class="project-grid">
+
+            <!-- 1) End-to-End AI-Recommendation Engine -->
+            <article class="project-card" data-target="modal-ai">
+              <img src="Photos/aiproject.jpg" alt="AI-Driven Recommendation Engine (Industry Capstone Experience)" class="project-image" loading="lazy">
+              <div class="project-info">
+                <h3 class="project-title">Prototype Generative-AI Recommendation Engine</h3>
+                <p class="project-description">Generative-AI stylist prototype for on-brand, in-stock recommendations.</p>
+
+                <p class="project-skills">
+                  <span class="pill">Python</span>
+                  <span class="pill">LLMs</span>
+                  <span class="pill">Prompt Engineering</span>
+                  <span class="pill">Prototyping</span>
+                  <span class="pill">Agile Delivery</span>
+                  <span class="pill">Data Engineering</span>
+                </p>
+
+                <p class="card-cta" aria-hidden="true"><span>Tap or Click to Learn More</span></p>
+              </div>
+            </article>
+
+            <!-- 2) Content Acquisition Optimization -->
+            <article class="project-card" data-target="modal-opt">
+              <img src="Photos/optimizationproject.jpg" alt="Content Acquisition Optimization for Streaming Profitability" class="project-image" loading="lazy">
+              <div class="project-info">
+                <h3 class="project-title">Content Acquisition Optimization for Streaming Profitability</h3>
+                <p class="project-description">Excel optimization model selecting a profit-maximizing film portfolio under constraints.</p>
+
+                <p class = "project-skills">
+                  <span class = "pill">Excel</span>
+                  <span class = "pill">Optimization Modeling</span>
+                  <span class = "pill">Data Cleaning & Preparation</span>
+                  <span class = "pill">Scenario Planning</span>
+                  <span class = "pill">Decision Analysis</span>
+                </p>
+
+                <p class="card-cta" aria-hidden="true"><span>Tap or Click to Learn More</span></p>
+              </div>
+            </article>
+
+            <!-- 3) Delta Air Lines Data Warehouse & BI -->
+            <article class="project-card" data-target="modal-delta">
+              <img src="Photos/airlinesproject.jpg" alt="Delta Air Lines Star-Schema Data Warehouse & BI" class="project-image" loading="lazy">
+              <div class="project-info">
+                <h3 class="project-title">Delta Air Lines Star-Schema Data Warehouse & BI</h3>
+                <p class="project-description">Dimensional DW/BI with conformed dimensions powering flight-ops KPIs in Tableau.</p>
+
+                <p class = "project-skills">
+                  <span class = "pill">Tableau</span>
+                  <span class = "pill">Excel</span>
+                  <span class = "pill">Draw.io</span>
+                  <span class = "pill">Business Intelligence</span>
+                  <span class = "pill">ERD Modeling</span>
+                </p>
+
+                <p class="card-cta" aria-hidden="true"><span>Tap or Click to Learn More</span></p>
+              </div>
+            </article>
+            
+
+            <!-- 4) Medical Device Profitability Simulation -->
+            <article class="project-card" data-target="modal-med">
+              <img src="Photos/medicalproject.jpg" alt="New Medical Device Profitability Simulation" class="project-image" loading="lazy">
+              <div class="project-info">
+                <h3 class="project-title">New Medical Device Profitability Simulation</h3>
+                <p class="project-description">Monte Carlo simulation estimating first-year profit and risk scenarios.</p>
+                <p class = "project-skills">
+                    <span class = "pill">Excel</span>
+                    <span class = "pill">Monte Carlo Simulation</span>
+                    <span class = "pill">Risk Analysis</span>
+                    <span class = "pill">Forecasting</span>
+                    <span class = "pill">Financial Modeling</span>
+                </p>
+
+                <p class="card-cta" aria-hidden="true"><span>Tap or Click to Learn More</span></p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+      
+            <!-- ========== Modal: AI Recommendation Engine ========== -->
+            <div id="modal-ai" class="modal" aria-hidden="true">
+              <div class="modal-backdrop" data-close-modal></div>
+              <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-ai-title">
+                <button class="modal-close" type="button" aria-label="Close" data-close-modal>✕</button>
+                <div class="modal-content">
+                  <header class="modal-header">
+                    <h2 id="modal-ai-title" class="modal-title">Prototype Generative-AI Recommendation Engine</h2>
+                    <p class="modal-subtitle">Leading a five-member Agile team to prototype a generative-AI stylist that delivers personalized product suggestions for The Webster.</p>
+                  </header>
+
+                  <figure class="modal-hero">
+                    <img src="Photos/ai_demo.png" class="modal-hero-img" alt="AI personalization prototype demo for The Webster showing curated product recommendations." loading="lazy">
+                  </figure>
+
+                  <section class="modal-body">
+                    <h3>Summary</h3>
+                    <p>Designing and prototyping a generative-AI recommendation engine that acts as a digital stylist for The Webster. The system uses synthetic customer, product, brand, and influencer datasets to generate tailored, in-stock recommendations and clear rationales aligned with shopper intent and style.</p>
+
+                    <h3>Problem Context</h3>
+                    <p>Luxury e-commerce often lacks the high-touch curation of boutique retail. Shoppers expect context-aware discovery (event, style, brand affinity, influencer taste) without wading through large catalogs. This project aims to translate The Webster’s curated identity into an AI-assisted experience that personalizes discovery while preserving brand voice and merchandising standards.</p>
+
+                    <h3>Tools & Skills</h3>
+                    <ul>
+                      <li><strong>Python</strong> (pandas, data validation, descriptive statistics)</li>
+                      <li><strong>LLMs / GPT</strong> (prompt design, intent alignment, few-shot patterns)</li>
+                      <li><strong>Streamlit</strong> (interactive prototype for real-time scenarios)</li>
+                      <li><strong>Agile Delivery</strong> (scope, sprints, stakeholder reviews)</li>
+                      <li><strong>Data Engineering</strong> (synthetic data design, pipeline checks)</li>
+                    </ul>
+
+                    <h3>Data & Constraints</h3>
+                    <p><strong>Dataset:</strong> Synthetic datasets for Customer, Product, Brand, and Influencer (no real data used).</p>
+                    <ul>
+                      <li><strong>Influencer Weighting:</strong> Followed influencers boost associated brands/categories in ranking.</li>
+                      <li><strong>Event/Intent Signals:</strong> Occasion tags (e.g., wedding, vacation, work, streetwear) guide filtering.</li>
+                      <li><strong>Catalog Stability:</strong> Product feed snapshotting to ensure consistent model behavior during development.</li>
+                      <li><strong>Governance:</strong> No personally identifiable information (PII) is used in any dataset. All outputs and explanations must remain brand-appropriate and non-speculative.</li>
+                    </ul>
+
+                    <h3>Approach</h3>
+                    <ol class="approach-list">
+                      <li>
+                        <strong>Data Preparation & Enrichment:</strong>
+                        <ul>
+                          <li>Standardize product attributes (brand, category, color, material, season, price) and create synthetic customer profiles.</li>
+                          <li>Map influencer style focus to brands/categories for ranking boosts.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Intent Modeling:</strong>
+                        <ul>
+                          <li>Derive event/style signals from queries; apply filters for budget, category, color, and availability.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>LLM Prompt & Behavior Design:</strong>
+                        <ul>
+                          <li>Structure outputs as ranked tables with “Why it works” rationales; enforce naming and tone rules.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Prototype Implementation:</strong>
+                        <ul>
+                          <li>Deploy an interactive Streamlit app to simulate customer journeys and stakeholder demos.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Evaluation & Iteration:</strong>
+                        <ul>
+                          <li>Validate recommendation quality and response consistency; refine prompts, weights, and filters.</li>
+                        </ul>
+                      </li>
+                    </ol>
+
+                    <h3>Expected Results & Impact</h3>
+                    <ul>
+                      <li><strong>Improved Discovery:</strong> Faster path to relevant items through event- and influencer-aware curation.</li>
+                      <li><strong>Higher Engagement:</strong> Clear rationales and stylist-like tone encourage exploration and saves.</li>
+                      <li><strong>Conversion Lift Potential:</strong> Personalization logic designed to surface on-brand, in-stock options aligned to shopper profiles.</li>
+                      <li><strong>Roadmap Readiness:</strong> A working prototype that informs data requirements, guardrails, and production integration steps.</li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========== Modal: Optimization ========== -->
+            <div id="modal-opt" class="modal" aria-hidden="true">
+              <div class="modal-backdrop" data-close-modal></div>
+              <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-opt-title">
+                <button class="modal-close" type="button" aria-label="Close" data-close-modal>✕</button>
+                <div class="modal-content">
+                  <header class="modal-header">
+                    <h2 id="modal-opt-title" class="modal-title">Content Acquisition Optimization for Streaming Profitability</h2>
+                    <p class="modal-subtitle">Modeled film licensing decisions under budget and diversity constraints to maximize portfolio profit.</p>
+                  </header>
+
+                  <figure class="modal-hero">
+                    <img src="Photos/Optimization_Results.png" class="modal-hero-img" alt="Final results table displaying optimization outcomes: 34 films selected, total cost $354,625,000, 
+                    total revenue $593,840,965.37, genre penalty $4,500,000, director penalty $5,250,000, total profit $229,465,965.37." loading="lazy">
+                  </figure>
+
+                  <section class="modal-body">
+                    <h3>Summary</h3>
+                    <p>Built a decision support model in Excel that optimized film licensing decisions for a streaming platform. The system used binary integer optimization through Excel’s 
+                      Solver to identify an ideal 34-film portfolio that maximized profit while satisfying real-world business constraints.</p>
+
+                    <h3>Problem Context</h3>
+                    <p>Streaming platforms face intense competition for subscribers while managing high licensing costs and limited budgets. The challenge was to select a minimum of 25 films to license under
+                      financial and diversity constraints. Traditional decision-making often overlooks trade-offs between profitability and variety, so we built a quantitative model to simulate this process using optimization principles.</p>
+
+                    <h3>Tools & Skills</h3>
+                    <ul>
+                      <li><strong>Excel </strong>(Solver – Evolutionary Algorithm)</li>
+                      <li><strong>Binary Integer Programming </strong>(Knapsack Optimization)</li>
+                      <li><strong>Predictive Modeling </strong>(Cost & Revenue Estimation)</li>
+                      <li><strong>Data Cleaning & Scenario Analysis</strong></li>
+                    </ul>
+
+                    <h3>Data & Constraints</h3>
+                      <p><strong>Dataset:</strong> ~4,800 films from Kaggle → filtered to the Top 100 most popular titles.</p>
+                      <ul>
+                        <li><strong>Key Variables:</strong> title, genre, director, budget, popularity, revenue.</li>
+                        <li><strong>Constraints:</strong>
+                        <ul>
+                          <li><strong>Licensing Budget:</strong> $405M</li>
+                          <li><strong>Minimum Revenue:</strong> $500M</li>
+                          <li><strong>Target Profit Margin:</strong> ≥ 19%</li>
+                          <li><strong>Minimum Film Count:</strong> 25 titles</li>
+                          <li><strong>Diversity:</strong> Penalty functions for duplicate genres/directors (to ensure film diversity)</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <h3>Approach</h3>
+                    <ol class="approach-list">
+                      <li>
+                        <strong>Data Cleaning & Preparation:</strong>
+                        <ul>
+                          <li>Cleaned and standardized the dataset, retaining the 100 most popular films.</li>
+                          <li>Removed irrelevant or missing records and ensured consistency across key variables such as title, budget, and revenue.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Popularity Normalization & Scoring:</strong>
+                        <ul>
+                          <li>Created a normalized popularity index (0–1 scale) to weigh film popularity and used it to generate a “popularity rate” adjustment factor for cost and revenue estimation.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Predictive Modeling:</strong>
+                        <ul>
+                          <li>Applied formulas using each film’s production budget and popularity rate to estimate licensing cost.</li>
+                          <li>Predicted potential streaming revenue as a function of normalized popularity and total revenue to create consistent financial proxies.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Optimization Design:</strong>
+                        <ul>
+                          <li>Defined binary decision variables (1 = license, 0 = do not license).</li>
+                          <li>Incorporated constraints for budget, minimum film count, and penalties for genre/director duplication to ensure diversity.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Solver Execution:</strong>
+                        <ul>
+                          <li>Formulated an objective to maximize total profit = estimated revenue − estimated cost − penalties.</li>
+                          <li>Used Excel’s Evolutionary Solver (Genetic Algorithm) to test thousands of portfolio combinations and select the optimal 34-film portfolio.</li>
+                        </ul>
+                      </li>
+                    </ol>
+
+                    <h3>Results & Impact</h3>
+                      <ul>
+                        <li><strong>Optimal Portfolio:</strong> 34 films across 32 genres and 27 directors</li>
+                        <li><strong>Projected Total Profit:</strong> ≈ $229M</li>
+                        <li><strong>Projected Profit Margin:</strong> ≈ 40%</li>
+                        <li><strong>Penalty Impact:</strong> ~$9.75M in diversity penalties offset by high-profit titles</li>
+                        <li><strong>Model Preference:</strong> favored high-return franchises even when diversity penalties applied, illustrating balance between commercial success and content diversity.</li>
+                        <li><strong>Decision Support:</strong> guided strategic content acquisition, reducing guesswork and improving ROI in high-stakes licensing decisions.</li>
+                      </ul>
+                  </section>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- ========== Modal: Delta ========== -->
+            <div id="modal-delta" class="modal" aria-hidden="true">
+              <div class="modal-backdrop" data-close-modal></div>
+              <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-delta-title">
+                <button class="modal-close" type="button" aria-label="Close" data-close-modal>✕</button>
+                <div class="modal-content">
+                  <header class="modal-header">
+                    <h2 id="modal-delta-title" class="modal-title">Delta Air Lines Star-Schema Data Warehouse & BI</h2>
+                    <p class="modal-subtitle">Designed a data warehouse and business intelligence (DW/BI) system for the passenger airline division using a bus-matrix and conformed dimensions to power dashboards and decision-making.</p>
+                  </header>
+
+                  <figure class="modal-hero">
+                    <video class="modal-hero-img" controls preload="metadata" playsinline poster="Photos/pilot_dashboard.png">
+                      <source src="Videos/delta_results.mp4" type="video/mp4">
+                      <p>Your browser can’t play this video.</p>
+                    </video>
+                  </figure>
+
+
+                  <section class="modal-body">
+                    <h3>Summary</h3>
+                    <p>Developed a multidimensional data warehouse and BI solution for Delta Air Lines’ passenger airline division. The design incorporated a high-level and detailed bus matrix, 
+                      conformed dimensions, star schemas, transformation rules, and an MDDB cube, resulting in role-based Tableau dashboards for analysts, operational staff, and executives.</p>
+
+                    <h3>Problem Context</h3>
+                    <p>Delta operates complex, high-volume processes (flight operations, booking & ticketing, crew, baggage, loyalty) where siloed data hinders timely, consistent insights. 
+                      The DW/BI initiative aimed to optimize flight operations, personalize customer experiences, streamline maintenance scheduling, improve on-time performance, 
+                      track pilot performance, and manage costs across the network.</p>
+
+                    <h3>Tools & Skills</h3>
+                      <ul>
+                        <li><strong>Tableau</strong> (role-based dashboards, KPI design)</li>
+                        <li><strong>Draw.io</strong> (ERD design)</li>
+                        <li><strong>Dimensional Modeling</strong> (bus matrix, conformed dimensions, star schema)</li>
+                        <li><strong>ETL & Transformation Rules</strong></li>
+                        <li><strong>Aggregate Tables & MDDB Cube</strong> (performance layer for fast analytics)</li>
+                      </ul>
+
+                    <h3>Data & Constraints</h3>
+                      <p><strong>Dataset:</strong> Flight operations and performance data obtained from the Delta Virtual Airlines Statistics platform.</p>
+                    <ul>
+                        <li><strong>Subject Areas:</strong> flight operations, customer booking & ticketing, baggage handling, crew management, delay management, loyalty, maintenance, support.</li>
+                        <ul>
+                          <li>Each subject area was modeled as a distinct fact table with related dimensions capturing the key operational variables for that process.</li>
+                        </ul>
+                        <li><strong>Core Dimensions:</strong> Date & Time, Route, Aircraft, Pilot/Crew, Flight Status, Airport, Fare Class, Booking Channel, Weather.</li>
+                        <li><strong>Grain Example (Flight Operations Fact):</strong> One row per flight operation by route; measures include delay duration, flight length, distance traveled, and fuel consumption.</li>
+                        <li><strong>Design Constraints:</strong>
+                        <ul>
+                          <li>Conformed dimensions across subject areas for consistent KPIs.</li>
+                          <li>Star schemas aligned to clearly defined grain and surrogate keys.</li>
+                          <li>ETL stages with transformation rules for data standardization.</li>
+                          <li>Aggregate tables and an MDDB cube to accelerate common analyses.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <h3>Approach</h3>
+                    <ol class="approach-list">
+                      <li>
+                        <strong>Business Process Discovery & Scoping:</strong>
+                        <ul>
+                          <li>Mapped core processes and priorities through a High-Level Bus Matrix, Opportunity Matrix, and Prioritization Grid.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Dimensional Modeling:</strong>
+                        <ul>
+                          <li>Authored Detailed Bus Matrix and star schemas with conformed dimensions to harmonize metrics across subject areas.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Logical & Physical Design:</strong>
+                        <ul>
+                          <li>Defined fact table grain, keys, and measures; detailed dimension attributes and hierarchies.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>ETL & Transformation Rules:</strong>
+                        <ul>
+                          <li>Specified cleansing, conformance, and derivations to standardize and integrate disparate data sources.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>Performance Layer:</strong>
+                        <ul>
+                          <li>Designed aggregate table strategies and an MDDB cube for frequent flight-operations analyses.</li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <strong>User & Task Analysis → Dashboards:</strong>
+                        <ul>
+                          <li>Built Tableau dashboards tailored for analysts (drill-downs), operational teams (situational awareness), and managers (KPI tracking and resource planning).</li>
+                        </ul>
+                      </li>
+                    </ol>
+
+                    <h3>Results & Impact</h3>
+                    <ul>
+                      <li><strong>Integrated Analytics:</strong> Conformed dimensions ensured consistent KPIs across divisions.</li>
+                      <li><strong>Operational Visibility:</strong> Exposed patterns in flight delays, high-traffic routes, and airport rankings for targeted improvements.</li>
+                      <li><strong>Decision Support:</strong> Enabled faster queries through aggregates and the MDDB cube, powering role-based dashboards that improve planning, operations, and executive insight.</li>
+                      <li><strong>Performance Efficiency:</strong> Optimized query performance and dashboard responsiveness through aggregate table strategies and multidimensional modeling.</li>
+                      <li><strong>Scalability Foundation:</strong> Designed a reusable DW/BI architecture that can easily expand to new subject areas such as maintenance or loyalty analytics.</li>
+                    </ul>
+                  </section>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- ========== Modal: Medical ========== -->
+            <div id="modal-med" class="modal" aria-hidden="true">
+              <div class="modal-backdrop" data-close-modal></div>
+              <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-med-title">
+                <button class="modal-close" type="button" aria-label="Close" data-close-modal>✕</button>
+                <div class="modal-content">
+                  <header class="modal-header">
+                    <h2 id="modal-med-title" class="modal-title">New Medical Device Profitability Simulation</h2>
+                    <p class="modal-subtitle">Performed a Monte Carlo–based “what-if” analysis to estimate first-year profit potential and assess risk for MedicTronix’s new device.</p>
+                  </header>
+
+                  <figure class="modal-hero">
+                    <img src="Photos/Medical_Results.png" class="modal-hero-img" alt="First-year profit distribution showing simulated outcomes for MedicTronix’s new device." loading="lazy">
+                  </figure>
+
+                  <section class="modal-body">
+                    <h3>Summary</h3>
+                    <p>Conducted a first-year profit simulation for MedicTronix’s new medical device to quantify expected profitability and risk under uncertain cost and demand conditions. 
+                      The analysis applied a Monte Carlo “what-if” approach with 1,000 simulated iterations to model revenue, costs, and potential profit outcomes.</p>
+
+                    <h3>Problem Context</h3>
+                    <p>MedicTronix required a method to forecast first-year profitability amid uncertainty in direct labor cost, parts cost, and demand. A probabilistic model in Excel was used to capture parameter variability, 
+                      simulate a wide range of financial outcomes, and identify both best- and worst-case profit scenarios.</p>
+
+                    <h3>Tools & Skills</h3>
+                    <ul>
+                      <li><strong>Excel</strong> (RAND, VLOOKUP, NORM.INV, AVERAGE, STDEV.S, COUNTIF)</li>
+                      <li><strong>Monte Carlo Analysis</strong> (1,000 iterations of what-if analysis)</li>
+                      <li><strong>Scenario Modeling</strong> (profit distributions & input ranges)</li>
+                      <li><strong>Statistical Analysis & Visualization</strong> (frequency table, profit distribution chart)</li>
+                    </ul>
+
+                    <h3>Data & Constraints</h3>
+                    <p><strong>Dataset:</strong> Simulated operational and cost data for MedicTronix’s device based on market research and financial estimates.</p>
+                    <ul>
+                      <li><strong>Key Parameters (Expected Values):</strong>
+                        <ul>
+                          <li><strong>Selling Price per Unit:</strong> $2,495</li>
+                          <li><strong>Administrative & Advertising Costs (fixed):</strong> $5,000,000 </li>
+                          <li><strong>Direct Labor Cost per Unit (mean):</strong> $1,400</li>
+                          <li><strong>Parts Cost per Unit (mean):</strong> $350</li>
+                          <li><strong>First-Year Demand (mean):</strong> 25,000 units</li>
+                        </ul>
+                      </li>
+                      <li><strong>Range Inputs (Simulation Ranges):</strong>
+                        <ul>
+                          <li><strong>Direct Labor Cost per Unit:</strong> $1,200 – $1,600</li>
+                          <li><strong>Parts Cost per Unit (uniform distribution):</strong> $250 – $500</li>
+                          <li><strong>Demand (normally distributed):</strong> 0 – 50,000 units</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <h3>Approach</h3>
+                    <ol class="approach-list">
+                      <li>
+                        <strong>Model Design & Parameterization:</strong>
+                        <ul>
+                          <li>Defined a probabilistic profit model linking revenue, variable costs, and fixed costs into a profit equation.</li>
+                          <li>Incorporated uncertainty via randomized sampling for labor, parts, and demand inputs.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Simulation Execution:</strong>
+                        <ul>
+                          <li>Ran 1,000 Monte Carlo iterations to generate the profit distribution and summary statistics (mean, variability, and bounds).</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Statistical Evaluation:</strong>
+                        <ul>
+                          <li>Computed descriptive statistics (mean, standard deviation, minimum and maximum profit, probability of loss).</li>
+                        </ul>
+                      </li>
+                      <li>
+                        <strong>Visualization & Reporting:</strong>
+                        <ul>
+                          <li>Plotted a profit frequency distribution to display probability density across the observed profit outcomes.</li>
+                        </ul>
+                      </li>
+                    </ol>
+
+                    <h3>Results & Impact</h3>
+                      <ul>
+                        <li><strong>Expected Profit:</strong> ≈ $13,029,542</li>
+                        <li><strong>Risk of Loss:</strong> No risk of loss (P = 0%)</li>
+                        <li><strong>Range of Outcomes:</strong> $3.7 M (min) – $25.9 M (max)</li>
+                        <li><strong>Most Frequent Outcome:</strong> ≈ $15 M profit per simulation cluster</li>
+                        <li><strong>Profit Potential:</strong> demonstrated strong profitability and resilience under cost-inflation scenarios.</li>
+                        <li><strong>Investment Decision:</strong> recommended proceeding with development and prototype investment due to high market and financial viability.</li>
+                      </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+
+      <!-- ========== Experiences Section ========== -->
+      <section id="experiences" class="experiences-section">
+        <div class="container">
+          <h1>Experiences</h1>
+
+          <!-- Webster -->
+          <article class="exp-item">
+            <div class="exp-left">
+              <h2 class="exp-role">Graduate Data Scientist – Project Lead</h2>
+              <h3 class="exp-org">The Webster (Stevens Industry Capstone)</h3>
+              <p class="exp-meta">
+                <time class="exp-start">September 2025</time> – <time class="exp-end">Present</time><br>
+                <span class="exp-location">Remote</span>
+              </p>
+              <span class="exp-divider"></span>
+            </div>
+
+            <div class="exp-right">
+              <ul class="exp-points">
+                <li>Lead a 5-member Agile team in developing a generative-AI recommendation engine that delivers personalized product suggestions for customers of a luxury fashion brand.</li>
+                <li>Build synthetic datasets combining customer profiles, product attributes, and trending fashion data to train and test GPT model behavior for personalization performance and recommendation accuracy.</li>
+                <li>Fine-tune the GPT model and validate data pipelines to improve intent alignment and response consistency.</li>
+                <li>Deploy an interactive Streamlit prototype enabling stakeholders to explore real-time personalization scenarios and simulate customer recommendation experiences.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- SFHAX -->
+          <article class="exp-item">
+            <div class="exp-left">
+              <h2 class="exp-role">Software Application Developer Intern</h2>
+              <h3 class="exp-org">SFHAX The Workplace Community™ (Systems for Human Action Exchange)</h3>
+              <p class="exp-meta">
+                <time class="exp-start">June 2025</time> – <time class="exp-end">Present</time><br>
+                <span class="exp-location">Hoboken, New Jersey</span>
+              </p>
+              <span class="exp-divider"></span>
+            </div>
+
+            <div class="exp-right">
+              <ul class="exp-points">
+                <li>Completed a 12-week technical onboarding (C++, Git, HTML/CSS, and RHEL), developing foundational skills to support data-driven web applications.</li>
+                <li>Implemented and tested a responsive front-end UI using HTML and CSS to verify consistent layout and behavior on desktop and mobile devices.</li>
+                <li>Built and maintained C++ CGI programs on an Apache HTTP Server running on Linux to validate web-form inputs, write output files, and log results.</li>
+                <li>Managed version control with Git with clear commit messages and change logs, supporting clean handoffs and reliable site deployments.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Stevens – Graduate Peer Mentor -->
+          <article class="exp-item">
+            <div class="exp-left">
+              <h2 class="exp-role">Graduate Peer Mentor</h2>
+              <h3 class="exp-org">Stevens Institute of Technology</h3>
+              <p class="exp-meta">
+                <time class="exp-start">June 2025</time> – <time class="exp-end">Present</time><br>
+                <span class="exp-location">Hoboken, New Jersey</span>
+              </p>
+              <span class="exp-divider"></span>
+            </div>
+
+            <div class="exp-right">
+              <ul class="exp-points">
+                <li>Provide structured guidance to new graduate students to ease their transition to life at Stevens.</li>
+                <li>Facilitate regular one-on-one mentorship meetings and maintain active communication to support mentee development.</li>
+                <li>Foster student engagement through leadership training, community events, and professional development workshops.</li>
+                <li>Support mentees in navigating academic resources, campus services, and personal goal-setting.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Stevens – Graduate Research Assistant -->
+          <article class="exp-item">
+            <div class="exp-left">
+              <h2 class="exp-role">Graduate Research Assistant</h2>
+              <h3 class="exp-org">Stevens Institute of Technology</h3>
+              <p class="exp-meta">
+                <time class="exp-start">June 2025</time> – <time class="exp-end">August 2025</time>
+                <span class="exp-tenure">• (3 mos)</span><br>
+                <span class="exp-location">Hoboken, New Jersey</span>
+              </p>
+              <span class="exp-divider"></span>
+            </div>
+
+            <div class="exp-right">
+              <ul class="exp-points">
+                <li>Collected executive and director insider-holdings data across the Russell 3000 with the Bloomberg Terminal.</li>
+                <li>Curated an analysis-ready Excel dataset with clear columns for company, ticker, executives, titles, holdings, and % change by removing duplicates and enforcing consistent naming conventions and field formats.</li>
+                <li>Launched an anonymous survey for C-suite executives/investors with concentrated positions to capture motivators, liquidity and tax considerations, and portfolio-management approaches.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Veeam Software – Customer Success & Renewals Intern -->
+          <article class="exp-item">
+            <div class="exp-left">
+              <h2 class="exp-role">Customer Success & Renewals Intern</h2>
+              <h3 class="exp-org">Veeam Software</h3>
+              <p class="exp-meta">
+                <time class="exp-start">May 2023</time> – <time class="exp-end">July 2023</time>
+                <span class="exp-tenure">• (3 mos)</span><br>
+                <span class="exp-location">Alpharetta, Georgia</span>
+              </p>
+              <span class="exp-divider"></span>
+            </div>
+
+            <div class="exp-right">
+              <ul class="exp-points">
+                <li>Extracted and cleaned 100+ Salesforce customer account data, standardizing fields and resolving data quality issues to improve data integrity and renewal reporting accuracy.</li>
+                <li>Analyzed account activity and renewal trends to uncover retention drivers, informing targeted outreach and revenue optimization strategies.</li>
+                <li>Created a PowerPoint reference deck for CSR teams that centralized product information and standardized technical talking points to support accurate and consistent customer interactions.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Clemson – Student IT Support Center Consultant -->
+          <article class="exp-item">
+            <div class="exp-left">
+              <h2 class="exp-role">Student IT Support Center Consultant</h2>
+              <h3 class="exp-org">Clemson Computing & Information Technology</h3>
+              <p class="exp-meta">
+                <time class="exp-start">September 2021</time> – <time class="exp-end">May 2023</time>
+                <span class="exp-tenure">• (1 yr, 8 mos)</span><br>
+                <span class="exp-location">Clemson, South Carolina</span>
+              </p>
+              <span class="exp-divider"></span>
+            </div>
+
+            <div class="exp-right">
+              <ul class="exp-points">
+                <li>Diagnosed and resolved Windows, macOS, and iOS issues across help desk, call center, and ticket queues, minimizing user downtime and maintaining service reliability.</li>
+                <li>Coordinated escalations and technology deployments with systems, network, and classroom-tech teams via Slack and Cherwell, improving response times and service consistency.</li>
+                <li>Onboarded and mentored new employees to increase technical proficiency and elevate service quality.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ========== Skill Section ========== -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <h1>Skills</h1>
+          <div class="skills-grid">
+            
+            <!-- Programming Languages -->
+            <div class="skills-card">
+              <i class="fa-solid fa-code"></i>
+              <h3>Programming Languages</h3>
+              <p>Python, SQL, R, HTML, CSS, C++</p>
+            </div>
+
+            <!-- Software & Analytical Tools -->
+            <div class="skills-card">
+              <i class="fa-solid fa-chart-simple"></i>
+              <h3>Software & Analytical Tools</h3>
+              <p>Tableau, Power BI, Alteryx, Excel, MongoDB, PostgreSQL, Draw.io, GitHub, Visual Studio Code, UltraEdit, Microsoft Office Suite</p>
+            </div>
+
+            <!-- Technical Proficiencies -->
+            <div class="skills-card">
+              <i class="fa-solid fa-computer"></i>
+              <h3>Technical Proficiencies</h3>
+              <p>Data Visualization & Storytelling, Exploratory Data Analysis (EDA), Data Cleaning & Preparation, Business Intelligence & Reporting, ETL & Data Integration, Predictive Modeling & Hypothesis Testing</p>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skills-card">
+              <i class="fa-solid fa-person"></i>
+              <h3>Soft Skills</h3>
+              <p>Communication, Problem Solving, Critical Thinking, Attention to Detail, Adaptability, Time Management, Teamwork, Leadership, Analytical Thinking, Strategic Decision-Making</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Education Section ========== -->
+      <section id="education" class="education-section">
+        <div class="container">
+          <h1>Education</h1>
+
+          <!-- Stevens -->
+          <article class="edu-item">
+            <!-- LEFT: School / program / dates -->
+            <div class="edu-left">
+              <h2 class="edu-school">Stevens Institute of Technology</h2>
+              <h3 class="edu-program">
+                M.S. in Business Analytics & Artificial Intelligence <br>Data Science Concentration</h3>
+              <p class="exp-meta">
+                <time class="exp-start">January 2025</time> – <time class="exp-end">May 2026</time><br>
+                <span class="exp-location">Hoboken, New Jersey</span>
+              </p>
+              <span class="edu-divider"></span>
+            </div>
+
+            <!-- MIDDLE: Fixed logo rail -->
+            <div class="edu-logo-col">
+              <img src="Photos/stevenslogo.JPG" alt="Stevens Institute of Technology Logo" class="edu-logo" loading="lazy">
+            </div>
+
+            <!-- RIGHT: Coursework -->
+            <div class="edu-right">
+              <p class="edu-courses-title">Selected Coursework</p>
+              <ul class="edu-courses">
+                <li>Business Intelligence & Data Integration</li>
+                <li>Business Intelligence & Data Integration Lab</li>
+                <li>Data Analytics & Machine Learning**</li>
+                <li>Industry Capstone Experience**</li>
+                <li>Management of AI Technologies**</li>
+                <li>Multivariate Data Analysis I</li>
+                <li>Optimization & Process Analytics</li>
+                <li>Web Mining**</li>
+              </ul>
+              <p class="progress-marker"><i><br>(** indicates in progress)</i></p>
+            </div>
+          </article>
+
+          <!-- Clemson -->
+          <article class="edu-item">
+            <!-- LEFT: School / program / dates -->
+            <div class="edu-left">
+              <h2 class="edu-school">Clemson University</h2>
+              <h3 class="edu-program">
+                B.S. in Management, Information Systems Emphasis <br>Financial Management Minor
+              </h3>
+              <p class="exp-meta">
+                <time class="exp-start">August 2019</time> – <time class="exp-end">December 2023</time><br>
+                <span class="exp-location">Clemson, South Carolina</span>
+              </p>
+              <span class="edu-divider"></span>
+            </div>
+
+            <!-- MIDDLE: Fixed logo rail -->
+            <div class="edu-logo-col">
+              <img src="Photos/Clemson.JPG" alt="Clemson University Logo" class="edu-logo" loading="lazy">
+            </div>
+
+            <!-- RIGHT: Coursework -->
+            <div class="edu-right">
+              <p class="edu-courses-title">Selected Coursework</p>
+              <ul class="edu-courses">
+                <li>Business Analysis</li>
+                <li>Business Analytics Programming</li>
+                <li>Business Data Management</li>
+                <li>Business Strategy</li>
+                <li>Decision Models for Management</li>
+                <li>Management of Information Systems</li>
+                <li>Operations Management</li>
+                <li>Project Management</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="about-text-container">
+            <h1>About Me</h1>
+            <div class="about-pic-container">
+              <img src="Photos/gradheadshot.jpg" class="about-pic" alt="About Picture" loading="lazy">
+            </div>
+
+            <p>My name is Marcus Rocco, and I’m pursuing an M.S. in Business Analytics & Artificial Intelligence with a concentration in Data Science at Stevens Institute of Technology, expecting to graduate in May 2026. 
+              I’m passionate about using technology and data to transform businesses and drive smarter, data-backed decisions. I enjoy turning complex data into clear, actionable insights—especially through interactive dashboards, predictive models, 
+              and collaborative, cross-functional projects that keep strategy moving forward.</p>
+
+            <p>Before graduate school, I earned my B.S. in Management (Information Systems emphasis) with a minor in Financial Management from Clemson University. Through my experience, I’ve built a strong foundation in data analysis, data visualization, 
+              and business intelligence. I’m proficient in Python, SQL, Alteryx, Tableau, Power BI, and Excel, and I’m always eager to learn new tools and techniques to stay at the forefront of the field.</p>
+
+            <p>Since starting at Stevens in January, I’ve focused on building practical analytics skills while fostering my leadership through hands-on projects and active involvement in the campus community.</p>
+
+            <p>Currently, I serve as the Lead Graduate Data Scientist on a 14-week capstone project, where I lead a five-member team using Agile methodology to design and prototype an AI-driven recommendation engine for a luxury retail client. I also work
+              as a Graduate Peer Mentor, guiding new master’s students through academic, professional, and personal development. Previously, as a Graduate Research Assistant, I contributed to summer research on concentrated stock portfolios among Russell
+              3000 insider holdings, preparing clean datasets from the Bloomberg Terminal and launching an anonymous survey for C-suite executives and investors on liquidity, tax, and portfolio management factors.</p>  
+              
+            <p>Beyond academics and work, I enjoy staying active, experimenting with new recipes, watching sports, reading about self-improvement and personal growth, and spending time with family and friends. I’m always open to connecting with fellow students, 
+              professionals, or anyone passionate about data, innovation, and technology. Feel free to reach out through the contact form below or connect with me on <a href="https://www.linkedin.com/in/marcus-rocco/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <h1>Contact</h1>
+          <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+            <input type="hidden" name="access_key" value="9618b585-7017-4a0e-8727-27c82f85a157">
+
+            <!-- Name -->
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+            <!-- Subject -->
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Email subject" required>
+
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." rows="6" required></textarea>
+
+            <!-- Honeypot Spam Protection -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display:none;">
+
+            <!-- Button -->
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
