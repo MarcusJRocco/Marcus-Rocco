@@ -467,6 +467,11 @@ body{
   .home-text-container{
     max-width: clamp(460px, 44vw, 560px);
   }
+  .about-pic-container{
+    width: min(38vw, 420px);
+    aspect-ratio: 1 / 1;
+    height: auto;
+  }
 }
 
 /* ---------- MD content & tablet layout (≤1152px) ---------- */
@@ -483,7 +488,14 @@ body{
     float: none; width: auto; height: auto; margin: 0 0 1.5rem 0;
     shape-outside: none; -webkit-shape-outside: none;
   }
-  .about-pic{ width: min(90vw, 500px); height: auto; display: block; margin-left: auto; margin-right: auto; }
+  /* === FIX (keeps circle at in-between widths) === */
+  .about-pic{
+    width: min(90vw, 500px);
+    aspect-ratio: 1 / 1;     /* <— added to prevent oval */
+    height: auto;
+    display: block;
+    margin-left: auto; margin-right: auto;
+  }
 
   .exp-item{ grid-template-columns: 1fr; gap: 1.25rem; }
   .edu-item{ grid-template-columns: 1fr; column-gap: 0; }
