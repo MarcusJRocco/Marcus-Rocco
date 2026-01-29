@@ -1,25 +1,26 @@
 Marcus Rocco – Personal Portfolio Website
 
-Welcome to my personal portfolio repository!
-This project serves as my professional website, designed to showcase my background, technical skills, and hands-on projects in Data Analytics, Data Engineering, and Business Intelligence.
+Welcome to my personal portfolio repository. This project powers my professional website and serves as a central place to showcase my background, technical skills, and selected work across Data Analytics, Applied Data Science, and Business Intelligence.
 
 ============ Overview ============
-- My academic and professional journey
-- Selected analytics, optimization, and AI projects
-- Key skills, tools, and certifications
-- Contact information and LinkedIn integration
-- The site is built entirely with HTML, CSS, and JavaScript, focusing on clean design, accessibility, and responsive layouts across desktop, tablet, and mobile devices.
+This site highlights: 
+  - My academic and professional journey in analytics and data science
+  - Selected projets spanning analytics, optimization & decision support, and machine learning
+  - Key technical skills, tools, and certifications
+  - Direct links to my LinkedIn profile and contact information
+
+The website is built entirely with HTML, CSS, and JavaScript, with an emphasis on clean design, accessibility, and responsive layouts across desktop, tablet, and mobile devices.
 
 ============ Features ============
-- Modern, responsive design following CSS grid/flexbox best practices
-- Animated mobile navigation toggle
-- Interactive project modals with detailed descriptions
-- Optimized typography using CoFo Sans font package
-- Accessibility-friendly structure and focus indicators
+- Modern, responsive layout using CSS Grid and Flexbox
+- Mobile-friendly navigation with animated toggle behavior
+- Interactive project modals with concise, high-signal descriptions
+- Optimized typography using the CoFo Sans font package
+- Accessibility-focused structure with clear hierarchy and focus states
 
 ============ Technologies Used ============
 - HTML5
-- CSS3 (Flexbox & Grid Layout)
+- CSS3 (Flexbox & Grid)
 - JavaScript
 - Font: CoFo Sans
 - Version Control: Git & GitHub
@@ -27,4 +28,4 @@ This project serves as my professional website, designed to showcase my backgrou
 ============ Author ============
 - Marcus Rocco
 - M.S. in Business Analytics & Artificial Intelligence
-- https://www.linkedin.com/in/marcus-rocco/
+- LinkedIn: https://www.linkedin.com/in/marcus-rocco/
