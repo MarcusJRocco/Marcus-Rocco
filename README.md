@@ -3,6 +3,7 @@ Marcus Rocco – Personal Portfolio Website
 Welcome to my personal portfolio repository. This project powers my professional website and serves as a central place to showcase my background, technical skills, and selected work across Data Analytics, Applied Data Science, and Business Intelligence.
 
 ============ Overview ============
+
 This site highlights: 
   - My academic and professional journey in analytics and data science
   - Selected projets spanning analytics, optimization & decision support, and machine learning
@@ -12,6 +13,7 @@ This site highlights:
 The website is built entirely with HTML, CSS, and JavaScript, with an emphasis on clean design, accessibility, and responsive layouts across desktop, tablet, and mobile devices.
 
 ============ Features ============
+
 - Modern, responsive layout using CSS Grid and Flexbox
 - Mobile-friendly navigation with animated toggle behavior
 - Interactive project modals with concise, high-signal descriptions
@@ -19,6 +21,7 @@ The website is built entirely with HTML, CSS, and JavaScript, with an emphasis o
 - Accessibility-focused structure with clear hierarchy and focus states
 
 ============ Technologies Used ============
+
 - HTML5
 - CSS3 (Flexbox & Grid)
 - JavaScript
@@ -26,6 +29,7 @@ The website is built entirely with HTML, CSS, and JavaScript, with an emphasis o
 - Version Control: Git & GitHub
 
 ============ Author ============
+
 - Marcus Rocco
 - M.S. in Business Analytics & Artificial Intelligence
 - LinkedIn: https://www.linkedin.com/in/marcus-rocco/
