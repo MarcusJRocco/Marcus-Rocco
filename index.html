@@ -147,93 +147,365 @@
       </section>
       
             <!-- ========== Modal: AI Recommendation Engine ========== -->
-            <div id="modal-ai" class="modal" aria-hidden="true">
-              <div class="modal-backdrop" data-close-modal></div>
-              <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-ai-title">
-                <button class="modal-close" type="button" aria-label="Close" data-close-modal>✕</button>
-                <div class="modal-content">
-                  <header class="modal-header">
-                    <h2 id="modal-ai-title" class="modal-title">Luxury Retail Generative-AI Recommendation Engine</h2>
-                    <p class="modal-subtitle">Led a five-member Agile team to design and deliver an AI-powered product recommendation system for a luxury fashion retailer, delivering end-to-end from concept to working prototype in 14 weeks.</p>
-                  </header>
+            <!-- ========== Modal: AI Recommendation Engine ========== -->
+<div id="modal-ai" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close-modal></div>
 
-                  <figure class="modal-hero">
-                    <img src="Photos/CapstoneWorkflow.png" class="modal-hero-img" alt="AI personalization prototype demo for The Webster showing curated product recommendations." loading="lazy">
-                  </figure>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-ai-title">
 
-                  <section class="modal-body">
-                    <h3>Summary</h3>
-                    <p>Designed and prototyped a generative-AI recommendation engine that acts as a digital stylist for The Webster. The system combines a sampled snapshot of live product catalog data with synthetic 
-                      customer and influencer datasets to generate tailored, in-stock product recommendations with clear rationales aligned to shopper intent and brand identity.</p>
+    <button class="modal-close" type="button" aria-label="Close" data-close-modal>
+      ✕
+    </button>
 
-                    <h3>Problem Context</h3>
-                    <p>Luxury e-commerce often lacks the high-touch curation found in boutique retail environments. Shoppers expect context-aware discovery based on event, style preferences, brand affinity, and influencer 
-                      taste, without navigating large product catalogs. This project translates The Webster’s curated identity into an AI-assisted experience that personalizes discovery while preserving brand voice, merchandising standards, and inventory constraints.</p>
+    <div class="modal-content">
 
-                    <h3>Tools & Skills</h3>
-                    <ul>
-                      <li><strong>Python</strong> (pandas, data validation, descriptive statistics)</li>
-                      <li><strong>Large Language Models (GPT)</strong> (prompt design, intent alignment, few-shot patterns)</li>
-                      <li><strong>Agile Delivery</strong> (scope definition, sprints, stakeholder reviews)</li>
-                      <li><strong>Data Engineering</strong> (data sampling, synthetic data design, pipeline checks)</li>
-                    </ul>
+      <header class="modal-header">
+        <h2 id="modal-ai-title" class="modal-title">
+          Luxury Retail Generative-AI Recommendation Engine
+        </h2>
 
-                    <h3>Data & Constraints</h3>
-                    <ul>
-                      <li><strong>Product Data:</strong> Sampled snapshot of a live product catalog used to ensure realistic inventory attributes, pricing, and availability.</li>
-                      <li><strong>Customer & Influencer Data:</strong> Synthetic datasets used to model shopper preferences, style signals, and influencer-brand relationships.</li>
-                      <li><strong>Influencer Weighting:</strong> Followed influencers boost associated brands and categories within the ranking logic.</li>
-                      <li><strong>Event & Intent Signals:</strong> Occasion tags such as wedding, vacation, work, and streetwear guide filtering and prioritization.</li>
-                      <li><strong>Catalog Stability:</strong> Snapshot-based product feeds ensure consistent model behavior throughout development and evaluation.</li>
-                      <li><strong>Governance:</strong> No personally identifiable information (PII) is used; all outputs remain brand-appropriate and non-speculative.</li>
-                    </ul>
+        <p class="modal-subtitle">
+          Led a five-member Agile team to design and deliver an AI-powered product
+          recommendation system for a luxury fashion retailer, delivering end-to-end
+          from concept to working prototype in 14 weeks.
+        </p>
+      </header>
 
-                    <h3>Approach</h3>
-                    <ol class="approach-list">
-                      <li>
-                        <strong>Data Preparation & Enrichment:</strong>
-                        <ul>
-                          <li>Standardized product attributes including brand, category, color, material, seasonality, and price from the live catalog snapshot.</li>
-                          <li>Created synthetic customer profiles and mapped influencer style focus to brands and categories to support ranking adjustments.</li>
-                        </ul>
-                      </li>
-                      <li>
-                        <strong>Intent Modeling:</strong>
-                        <ul>
-                          <li>Derived event and style signals from natural-language user queries. Applied filters for budget, category, color, availability, and relevance to narrow candidate recommendations.</li>
-                        </ul>
-                      </li>
-                      <li>
-                        <strong>LLM Prompt & Behavior Design:</strong>
-                        <ul>
-                          <li>Structured outputs as ranked recommendation tables with concise “Why it works” rationales. Enforced tone, naming, and explanation rules to maintain brand consistency and response reliability.</li>
-                        </ul>
-                      </li>
-                      <li>
-                        <strong>Prototype Implementation:</strong>
-                        <ul>
-                          <li>Deployed a custom GPT configured with structured prompts, guardrails, and data boundaries to simulate customer journeys and support stakeholder demos.</li>
-                        </ul>
-                      </li>
-                      <li>
-                        <strong>Evaluation & Iteration:</strong>
-                        <ul>
-                          <li>Reviewed recommendation quality and response consistency through scenario testing and stakeholder feedback. Iterated on prompt structure, ranking weights, and filtering logic to improve alignment with merchandising expectations.</li>
-                        </ul>
-                      </li>
-                    </ol>
 
-                    <h3>Results & Impact</h3>
-                    <ul>
-                      <li><strong>Functional Prototype Delivered:</strong> Completed a working generative-AI stylist capable of producing on-brand, intent-aware product recommendations using a live product catalog snapshot combined with synthetic customer and influencer signals.</li>
-                      <li><strong>Transparent Recommendation Logic:</strong> Implemented a clear ranking and rationale framework balancing customer intent, brand alignment, influencer weighting, and inventory constraints.</li>
-                      <li><strong>Stakeholder Enablement:</strong> Supported live demos and walkthroughs that allowed business and product stakeholders to interact with the system and evaluate AI-assisted personalization concepts.</li>
-                      <li><strong>Implementation Insights:</strong> Clarified data requirements, governance considerations, and system boundaries needed to support future production deployment and scaling.</li>
-                    </ul>
-                  </section>
-                </div>
-              </div>
-            </div>
+      <!-- HERO IMAGE -->
+      <figure class="modal-hero">
+        <img
+          src="Photos/CapstoneWorkflow.png"
+          class="modal-hero-img"
+          alt="AI personalization prototype demo for The Webster showing curated product recommendations."
+          loading="lazy"
+        >
+      </figure>
+
+
+      <section class="modal-body">
+
+        <!-- ========== TABLEAU TEST AREA ========== -->
+
+        <h3>Interactive Dashboard</h3>
+
+        <div class="tableau-embed-wrapper">
+
+          <div
+            class="tableauPlaceholder"
+            id="viz1786627839157"
+            style="position: relative; width: 100%;"
+          >
+
+            <noscript>
+              <a href="#">
+                <img
+                  alt="DZV with Switches"
+                  src="https://public.tableau.com/static/images/NF/NFL_2025_MeasureSwitchDimensionSwitchDZV/DZVwithSwitches/1_rss.png"
+                  style="border: none; width: 100%;"
+                >
+              </a>
+            </noscript>
+
+            <object
+              class="tableauViz"
+              style="display: none;"
+            >
+
+              <param
+                name="host_url"
+                value="https%3A%2F%2Fpublic.tableau.com%2F"
+              />
+
+              <param
+                name="embed_code_version"
+                value="3"
+              />
+
+              <param
+                name="site_root"
+                value=""
+              />
+
+              <param
+                name="name"
+                value="NFL_2025_MeasureSwitchDimensionSwitchDZV/DZVwithSwitches"
+              />
+
+              <param
+                name="tabs"
+                value="no"
+              />
+
+              <param
+                name="toolbar"
+                value="yes"
+              />
+
+              <param
+                name="static_image"
+                value="https://public.tableau.com/static/images/NF/NFL_2025_MeasureSwitchDimensionSwitchDZV/DZVwithSwitches/1.png"
+              />
+
+              <param
+                name="animate_transition"
+                value="yes"
+              />
+
+              <param
+                name="display_static_image"
+                value="yes"
+              />
+
+              <param
+                name="display_spinner"
+                value="yes"
+              />
+
+              <param
+                name="display_overlay"
+                value="yes"
+              />
+
+              <param
+                name="display_count"
+                value="yes"
+              />
+
+              <param
+                name="language"
+                value="en-US"
+              />
+
+            </object>
+          </div>
+
+        </div>
+
+        <script type="text/javascript">
+          var divElement =
+            document.getElementById("viz1786627839157");
+
+          var vizElement =
+            divElement.getElementsByTagName("object")[0];
+
+          vizElement.style.width = "100%";
+
+          if (divElement.offsetWidth > 800) {
+            vizElement.style.height = "827px";
+          } else if (divElement.offsetWidth > 500) {
+            vizElement.style.height = "827px";
+          } else {
+            vizElement.style.height = "1027px";
+          }
+
+          var scriptElement =
+            document.createElement("script");
+
+          scriptElement.src =
+            "https://public.tableau.com/javascripts/api/viz_v1.js";
+
+          vizElement.parentNode.insertBefore(
+            scriptElement,
+            vizElement
+          );
+        </script>
+
+
+        <!-- ========== EXISTING CONTENT ========== -->
+
+        <h3>Summary</h3>
+
+        <p>
+          Designed and prototyped a generative-AI recommendation engine that acts as
+          a digital stylist for The Webster. The system combines a sampled snapshot
+          of live product catalog data with synthetic customer and influencer datasets
+          to generate tailored, in-stock product recommendations with clear rationales
+          aligned to shopper intent and brand identity.
+        </p>
+
+
+        <h3>Problem Context</h3>
+
+        <p>
+          Luxury e-commerce often lacks the high-touch curation found in boutique
+          retail environments. Shoppers expect context-aware discovery based on event,
+          style preferences, brand affinity, and influencer taste, without navigating
+          large product catalogs. This project translates The Webster’s curated identity
+          into an AI-assisted experience that personalizes discovery while preserving
+          brand voice, merchandising standards, and inventory constraints.
+        </p>
+
+
+        <h3>Tools & Skills</h3>
+
+        <ul>
+          <li>
+            <strong>Python</strong>
+            (pandas, data validation, descriptive statistics)
+          </li>
+
+          <li>
+            <strong>Large Language Models (GPT)</strong>
+            (prompt design, intent alignment, few-shot patterns)
+          </li>
+
+          <li>
+            <strong>Agile Delivery</strong>
+            (scope definition, sprints, stakeholder reviews)
+          </li>
+
+          <li>
+            <strong>Data Engineering</strong>
+            (data sampling, synthetic data design, pipeline checks)
+          </li>
+        </ul>
+
+
+        <h3>Data & Constraints</h3>
+
+        <ul>
+          <li>
+            <strong>Product Data:</strong>
+            Sampled snapshot of a live product catalog used to ensure realistic
+            inventory attributes, pricing, and availability.
+          </li>
+
+          <li>
+            <strong>Customer & Influencer Data:</strong>
+            Synthetic datasets used to model shopper preferences, style signals,
+            and influencer-brand relationships.
+          </li>
+
+          <li>
+            <strong>Influencer Weighting:</strong>
+            Followed influencers boost associated brands and categories within
+            the ranking logic.
+          </li>
+
+          <li>
+            <strong>Event & Intent Signals:</strong>
+            Occasion tags such as wedding, vacation, work, and streetwear guide
+            filtering and prioritization.
+          </li>
+
+          <li>
+            <strong>Catalog Stability:</strong>
+            Snapshot-based product feeds ensure consistent model behavior
+            throughout development and evaluation.
+          </li>
+
+          <li>
+            <strong>Governance:</strong>
+            No personally identifiable information (PII) is used; all outputs
+            remain brand-appropriate and non-speculative.
+          </li>
+        </ul>
+
+
+        <h3>Approach</h3>
+
+        <ol class="approach-list">
+
+          <li>
+            <strong>Data Preparation & Enrichment:</strong>
+            <ul>
+              <li>
+                Standardized product attributes including brand, category, color,
+                material, seasonality, and price from the live catalog snapshot.
+              </li>
+
+              <li>
+                Created synthetic customer profiles and mapped influencer style
+                focus to brands and categories to support ranking adjustments.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Intent Modeling:</strong>
+            <ul>
+              <li>
+                Derived event and style signals from natural-language user queries.
+                Applied filters for budget, category, color, availability, and
+                relevance to narrow candidate recommendations.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>LLM Prompt & Behavior Design:</strong>
+            <ul>
+              <li>
+                Structured outputs as ranked recommendation tables with concise
+                “Why it works” rationales. Enforced tone, naming, and explanation
+                rules to maintain brand consistency and response reliability.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Prototype Implementation:</strong>
+            <ul>
+              <li>
+                Deployed a custom GPT configured with structured prompts, guardrails,
+                and data boundaries to simulate customer journeys and support
+                stakeholder demos.
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Evaluation & Iteration:</strong>
+            <ul>
+              <li>
+                Reviewed recommendation quality and response consistency through
+                scenario testing and stakeholder feedback. Iterated on prompt
+                structure, ranking weights, and filtering logic to improve alignment
+                with merchandising expectations.
+              </li>
+            </ul>
+          </li>
+
+        </ol>
+
+
+        <h3>Results & Impact</h3>
+
+        <ul>
+
+          <li>
+            <strong>Functional Prototype Delivered:</strong>
+            Completed a working generative-AI stylist capable of producing on-brand,
+            intent-aware product recommendations using a live product catalog snapshot
+            combined with synthetic customer and influencer signals.
+          </li>
+
+          <li>
+            <strong>Transparent Recommendation Logic:</strong>
+            Implemented a clear ranking and rationale framework balancing customer
+            intent, brand alignment, influencer weighting, and inventory constraints.
+          </li>
+
+          <li>
+            <strong>Stakeholder Enablement:</strong>
+            Supported live demos and walkthroughs that allowed business and product
+            stakeholders to interact with the system and evaluate AI-assisted
+            personalization concepts.
+          </li>
+
+          <li>
+            <strong>Implementation Insights:</strong>
+            Clarified data requirements, governance considerations, and system
+            boundaries needed to support future production deployment and scaling.
+          </li>
+
+        </ul>
+
+      </section>
+    </div>
+  </div>
+</div>
 
             <!-- ========== Modal: Optimization ========== -->
             <div id="modal-opt" class="modal" aria-hidden="true">
